@@ -1,0 +1,28 @@
+.client-card {
+    background-color: #1f2937;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.clients img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.clients span {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #9ca3af;
+}

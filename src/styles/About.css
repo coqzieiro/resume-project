@@ -1,0 +1,70 @@
+/* About Container */
+.about-container {
+    display: flex;
+    height: 100vh;
+    background-color: #0f172a;
+    color: #ffffff;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  /* About Section */
+  .about-section {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #ff6bcb;
+    margin-top: 5px;
+  }
+  
+  .about-description {
+    font-size: 1rem;
+    color: #9ca3af;
+    line-height: 1.8;
+  }
+  
+  .about-description .highlight {
+    color: #ff6bcb;
+    font-weight: bold;
+  }
+  
+  /* Personal Information */
+  .personal-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .personal-info li {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  .info-label {
+    flex: 0 0 150px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .info-value {
+    color: #9ca3af;
+  }  

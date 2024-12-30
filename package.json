@@ -1,0 +1,28 @@
+{
+    "name": "felipe-coqueiro-portfolio",
+    "version": "1.0.0",
+    "description": "Portifólio profissional para serviços freelancer.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "keywords": [
+        "portfolio",
+        "react",
+        "frontend",
+        "vite"
+    ],
+    "author": "Felipe Coqueiro",
+    "license": "MIT",
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.12.1"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.3.4",
+        "vite": "^4.5.5"
+    }
+}
