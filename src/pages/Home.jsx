@@ -2,6 +2,16 @@ import React from "react";
 import Sidebar from "../components/Sidebar";
 import "../styles/Home.css";
 
+// Importando imagens que são usada
+import profileImage from "../images/profile.jpeg";
+import client1Image from "../images/cliente1.jpeg";
+import client2Image from "../images/cliente2.jpeg";
+import client3Image from "../images/cliente3.jpeg";
+import prolineImage from "../images/proline.png";
+import snowflakeImage from "../images/snow.png";
+import airbnbImage from "../images/airbnb.png";
+import pritoImage from "../images/pritom.png";
+
 function Home() {
   return (
     <div className="home-container">
@@ -14,7 +24,7 @@ function Home() {
         <section className="intro">
           <div className="text-section">
             <h1 className="name">
-              Jessica <span className="highlight">Biogi</span>
+              Felipe <span className="highlight">Coqueiro</span>
             </h1>
             <h2 className="role">Full Stack Developer</h2>
             <p className="description">
@@ -26,32 +36,17 @@ function Home() {
               <button className="btn btn-yellow">Contact Me</button>
             </div>
           </div>
-          <div className="image-section">
-            <img
-              src="/assets/images/profile.jpg"
-              alt="Jessica Biogi"
-              className="profile-image"
-            />
-            <div className="badge">
-              <p>Worked with more than 100 people</p>
-              <div className="clients">
-                <img src="/assets/images/client1.jpg" alt="Client 1" />
-                <img src="/assets/images/client2.jpg" alt="Client 2" />
-                <img src="/assets/images/client3.jpg" alt="Client 3" />
-                <span>+100 Clients</span>
-              </div>
-            </div>
-          </div>
+          
         </section>
 
         {/* Trusted Section */}
         <section className="trusted-section">
           <h3 className="trusted-title">Trusted by World Leading Brands</h3>
           <div className="brands">
-            <img src="/assets/images/proline.png" alt="Proline" />
-            <img src="/assets/images/snowflake.png" alt="Snowflake" />
-            <img src="/assets/images/airbnb.png" alt="Airbnb" />
-            <img src="/assets/images/prito.png" alt="Prito" />
+            <img src={prolineImage} alt="Proline" />
+            <img src={snowflakeImage} alt="Snowflake" />
+            <img src={airbnbImage} alt="Airbnb" />
+            <img src={pritoImage} alt="Prito" />
           </div>
         </section>
       </div>

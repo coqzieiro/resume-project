@@ -1,17 +1,20 @@
 import React from "react";
 import "../styles/Sidebar.css";
 
+// Importando a imagem do perfil
+import profileImage from "../images/profile.jpeg";
+
 function Sidebar() {
   return (
     <div className="sidebar">
       {/* Profile Section */}
       <div className="profile">
         <img
-          src="/assets/images/profile.jpg"
-          alt="Jessica Biogi"
+          src={profileImage}
+          alt="Felipe Coqueiro"
           className="profile-pic"
         />
-        <h2>Jessica Biogi</h2>
+        <h2>Felipe Coqueiro</h2>
         <p className="subtitle">Freelancer</p>
       </div>
 
